@@ -6,6 +6,7 @@ return Convert.ToInt32(Console.ReadLine());
 
 int GetSumOfDigits(int number)
 {
+ number = Math.Abs(number);
  int sum = 0;
  while (number > 0)
  {
